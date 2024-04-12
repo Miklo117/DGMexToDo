@@ -1,0 +1,75 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "indent": "off",
+    "indent-props": "off",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "react/prop-types": 0,
+    "no-underscore-dangle": 0,
+    // "import/imports-first": [
+    //   "error",
+    //   "absolute-first"
+    // ],
+    "import/newline-after-import": "off",
+    //dlabs custom rules
+    "react/prefer-stateless-function": "off",
+    "react/no-unused-prop-types": "off",
+    "react/destructuring-assignment": "off",
+    "react/require-default-props": "off",
+    //
+    "react/sort-comp": "off",
+    "react/no-access-state-in-setstate": "off",
+    "no-unused-vars": "off",
+    "no-plusplus": "off",
+    "react/no-array-index-key": "off",
+    "no-nested-ternary": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/jsx-props-no-spreading": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/imports-first": "off",
+    "import/no-unresolved": "off",
+    "react/no-string-refs": "off",
+    "no-shadow": "off",
+    "import/extensions": "off",
+    "no-restricted-globals": "off",
+    "consistent-return": "off",
+    "no-param-reassign": "off",
+    "no-use-before-define": "off",
+    "no-undef": "off",
+    "no-return-await": "off",
+    "no-restricted-syntax": "off",
+    "no-prototype-builtins": "off",
+    "import/order": "off",
+    "react/no-unused-state": "off",
+    "no-return-assign": "off",
+    "no-unused-expressions": "off",
+    "camelcase": "off",
+    "class-methods-use-this": "off",
+    "import/prefer-default-export": "off",
+    "arrow-body-style": "off",
+    "react/self-closing-comp": "off",
+    "react/jsx-boolean-value": "off",
+    //warnings
+    "no-console": "off",
+    "func-names": "off",
+    "react/jsx-ident": "off"
+  },
+  "globals": {
+    "window": true,
+    "document": true,
+    "localStorage": true,
+    "FormData": true,
+    "FileReader": true,
+    "Blob": true,
+    "navigator": true
+  },
+  "parser": "babel-eslint"
+}
